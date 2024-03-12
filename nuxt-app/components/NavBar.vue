@@ -27,7 +27,7 @@ nav {
  display: flex;
  justify-content: space-between;
  align-items: center;
- background-color: #BCB88A;
+ background-color: #1C3422;
  width: 100%;
  position: sticky;
  top: 0;

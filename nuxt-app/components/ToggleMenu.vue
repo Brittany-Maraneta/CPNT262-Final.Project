@@ -28,7 +28,7 @@ const props = defineProps({
   height: 340px;
   transition: 0.4s;
   width: 100%;
-  background-color: #BCB88A;
+  background-color: #1C3422;
   z-index: 1;
   animation: slideIn 0.3s ease forwards;
  }
