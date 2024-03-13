@@ -1,37 +1,39 @@
 <script setup>
-import {ref} from 'vue'
+import { ref } from "vue";
 const props = defineProps({
   links: {
     type: Array,
-    required: true
-  }
-})
+    required: true,
+  },
+});
 let isVisible = ref(false);
 </script>
 
 <template>
   <nav>
-    <p style="color: white;">LOGO</p>
+    <p style="color: white">LOGO</p>
     <ul>
-      <li v-for="({title, href}, i) in props.links" :key="i"><a :href="href">{{ title }}</a></li>
+      <li v-for="({ title, href }, i) in props.links" :key="i">
+        <a :href="href">{{ title }}</a>
+      </li>
     </ul>
-  <div @click="isVisible = !isVisible" class="menu-wrapper">
-  <HamburguerMenu />
-  </div>
+    <div @click="isVisible = !isVisible" class="menu-wrapper">
+      <HamburguerMenu />
+    </div>
   </nav>
   <ToggleMenu :isVisible="isVisible" :links="links" />
 </template>
 
 <style lang="scss" scoped>
 nav {
- display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: #1C3422;
- width: 100%;
- position: sticky;
- top: 0;
- padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #465e4c;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
 }
 
 ul {
