@@ -8,7 +8,7 @@
         />
       </div>
       <div class="text-container">
-        <h2>Title 1</h2>
+        <h2>Laptop</h2>
         <p>Description goes here for item 1.</p>
       </div>
     </div>
@@ -20,7 +20,7 @@
         />
       </div>
       <div class="text-container">
-        <h2>Title 2</h2>
+        <h2>Camera</h2>
         <p>Description goes here for item 2.</p>
       </div>
     </div>
@@ -31,8 +31,8 @@
       <p>Description goes here for the full-width image.</p>
     </div>
     <img
-      src="https://images.pexels.com/photos/3948215/pexels-photo-3948215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-      alt="Full Width Image"
+      src="https://images.pexels.com/photos/792345/pexels-photo-792345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      alt="Full Image of Tech"
     />
   </div>
 </template>
@@ -82,7 +82,7 @@
 
 .full-width-image img {
   width: 100%;
-  height: auto;
+  height: 115vh;
   display: block;
 }
 
