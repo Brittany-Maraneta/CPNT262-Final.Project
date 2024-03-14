@@ -14,23 +14,32 @@ const props = defineProps({
 </script>
 
 <template>
+
 <div v-show="props.isVisible" class="toggle-menu">
       <ul class="toggle-items">
-      <li v-for="({title, href}, i) in props.links" :key="i"><a :href="href">{{ title }}</a></li>
+      <li v-for="({title, href}, i) in props.links" :key="i"><NuxtLink :to="href" class="link" @click="isVisible = !isVisible">{{ title }}</NuxtLink></li>
       </ul>
     </div>
+
 </template>
 
 <style lang="scss" scoped>
 .toggle-menu {
-  position: sticky;
-  top: 29.7%;
+  position: fixed;
+  top: 11.8%;
   height: 340px;
   transition: 0.4s;
   width: 100%;
   background-color: #465e4c;
   z-index: 1;
   animation: slideIn 0.3s ease forwards;
+ }
+
+ .link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
  }
 
  .toggle-items {
@@ -47,7 +56,6 @@ const props = defineProps({
   width: 100%;
   height: 100%;
   text-align: center;
-  padding-top: 20px;
   transition: 0.4s;
   cursor: pointer;
  }

@@ -3,30 +3,28 @@
 const links = [
   {
     title: "Home",
-    href: "#",
+    href: "/",
   },
 
   {
     title: "Products",
-    href: "#",
+    href: "/products",
   },
 
   {
     title: "About",
-    href: "#",
+    href: "/about",
   },
 
   {
     title: "Contact",
-    href: "#",
+    href: "/contact",
   },
 ];
 </script>
 
 <template>
-  <div>
-    <NavBar :links="links" />
-  </div>
+  <NavBar :links="links" />
   <NuxtPage />
 </template>
 

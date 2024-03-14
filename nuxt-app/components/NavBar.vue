@@ -14,7 +14,7 @@ let isVisible = ref(false);
     <h1>TC</h1>
     <ul>
       <li v-for="({ title, href }, i) in props.links" :key="i">
-        <a :href="href">{{ title }}</a>
+        <NuxtLink :to="href">{{ title }}</NuxtLink>
       </li>
     </ul>
     <div @click="isVisible = !isVisible" class="menu-wrapper">
