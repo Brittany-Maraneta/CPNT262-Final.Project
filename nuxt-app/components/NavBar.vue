@@ -11,7 +11,7 @@ let isVisible = ref(false);
 
 <template>
   <nav>
-    <p style="color: white">LOGO</p>
+    <h1>TC</h1>
     <ul>
       <li v-for="({ title, href }, i) in props.links" :key="i">
         <a :href="href">{{ title }}</a>
@@ -47,6 +47,11 @@ li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
 }
 
 @media screen and (min-width: 880px) {

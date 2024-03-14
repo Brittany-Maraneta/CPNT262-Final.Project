@@ -1,5 +1,4 @@
 <script setup>
-import Header from "./components/Header.vue";
 
 const links = [
   {
@@ -28,12 +27,7 @@ const links = [
   <div>
     <NavBar :links="links" />
   </div>
-  <main>
-    <Header />
-    <section class="main-body">
-      <MainHome />
-    </section>
-  </main>
+  <NuxtPage />
 </template>
 
 <style>
