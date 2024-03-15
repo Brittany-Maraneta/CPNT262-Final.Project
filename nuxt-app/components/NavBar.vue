@@ -25,13 +25,14 @@ let isVisible = ref(false);
 </template>
 
 <style lang="scss" scoped>
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #465e4c;
   width: 100%;
-  position: sticky;
+  position: absolute;
   top: 0;
   padding: 1rem;
 }

@@ -28,7 +28,9 @@
   <div class="full-width-image">
     <div class="overlay-text">
       <h1>A Crew that finds Tech for you so you don't have too!</h1>
-      <button class="button">Contact Us</button>
+      <Button>
+        Contact Us
+      </Button>
     </div>
     <img
       src="https://images.pexels.com/photos/792345/pexels-photo-792345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -111,23 +113,6 @@ h1 {
   font-size: 18px;
 }
 
-.button {
-  background-color: #9fcbaa;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 16px;
-}
-
-.button:hover {
-  background-color: #1c3422;
-  color: white;
-  cursor: pointer;
-}
 
 @media (max-width: 768px) {
   .container {
