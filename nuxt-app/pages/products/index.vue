@@ -1,6 +1,6 @@
 <template>
-  <h1>indec</h1>
 <ProductCarousel />
+<GallerComponent />
 </template>
 
 <script setup>

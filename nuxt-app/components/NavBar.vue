@@ -11,7 +11,7 @@ let isVisible = ref(false);
 
 <template>
   <nav>
-    <h1>TC</h1>
+    <img src="../public/logo.svg" alt="logo" width="75" height="75">
     <ul>
       <li v-for="({ title, href }, i) in props.links" :key="i">
         <NuxtLink :to="href">{{ title }}</NuxtLink>
