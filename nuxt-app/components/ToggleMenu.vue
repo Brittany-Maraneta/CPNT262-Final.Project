@@ -25,8 +25,8 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .toggle-menu {
-  position: fixed;
-  top: 11.8%;
+  position: relative;
+  margin-top: 60px;
   height: 340px;
   transition: 0.4s;
   width: 100%;

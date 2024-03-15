@@ -51,8 +51,11 @@
   <div class="full-width-image">
     <div class="overlay-text">
       <h1>A Crew that finds Tech for you so you don't have too!</h1>
+      
       <NuxtLink to="/contact">
-        <button class="button">Contact Us</button>
+        <Button>
+        Contact Us
+      </Button>
       </NuxtLink>
     </div>
     <img
@@ -137,23 +140,6 @@ h1 {
   font-size: 18px;
 }
 
-.button {
-  background-color: #9fcbaa;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 16px;
-}
-
-.button:hover {
-  background-color: #1c3422;
-  color: white;
-  cursor: pointer;
-}
 
 @media (max-width: 900px) {
   .container {
