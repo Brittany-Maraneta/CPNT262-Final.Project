@@ -9,7 +9,18 @@
       </div>
       <div class="text-container">
         <h2>Laptop</h2>
-        <p>Description goes here for item 1.</p>
+        <br />
+        <p>High-Performance Laptop for Work and Play</p>
+        <p>
+          <br />
+          Experience the perfect blend of style and performance with our sleek
+          laptop. Packed with a high-performance Intel Core processor and
+          vibrant Full HD display.
+        </p>
+        <br />
+        <NuxtLink to="/products">
+          <button class="button">View More</button>
+        </NuxtLink>
       </div>
     </div>
     <div class="item">
@@ -21,16 +32,31 @@
       </div>
       <div class="text-container">
         <h2>Camera</h2>
-        <p>Description goes here for item 2.</p>
+        <br />
+        <p>Capture Every Moment in Stunning Detail</p>
+        <br />
+        <p>
+          Introducing our latest camera, designed to capture every moment with
+          precision and clarity. Whether you're a professional photographer or
+          an avid enthusiast, this camera delivers exceptional performance and
+          versatility.
+        </p>
+        <br />
+        <NuxtLink to="/products">
+          <button class="button">View More</button>
+        </NuxtLink>
       </div>
     </div>
   </div>
   <div class="full-width-image">
     <div class="overlay-text">
       <h1>A Crew that finds Tech for you so you don't have too!</h1>
-      <Button>
+      
+      <NuxtLink to="/contact">
+        <Button>
         Contact Us
       </Button>
+      </NuxtLink>
     </div>
     <img
       src="https://images.pexels.com/photos/792345/pexels-photo-792345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -71,6 +97,7 @@ h1 {
 }
 
 .text-container {
+  flex: 1;
   font-size: 16px;
 }
 
@@ -114,7 +141,7 @@ h1 {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .container {
     flex-direction: column;
     align-items: center;
@@ -125,16 +152,21 @@ h1 {
   }
 
   .item {
+    flex-direction: column;
     margin-bottom: 20px;
   }
 
   .image-container {
     width: 80%;
-    height: 70%;
+    height: 330px;
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   .text-container {
     text-align: center;
+    order: 2;
+    margin-bottom: 60px;
   }
 }
 </style>
