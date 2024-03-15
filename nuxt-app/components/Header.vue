@@ -2,7 +2,9 @@
   <section class="header">
     <div class="header-content">
       <h1>{{ heroMessage }}</h1>
-      <button class="button">Explore More</button>
+      <NuxtLink to="/products">
+        <button class="button">Explore More</button>
+      </NuxtLink>
     </div>
   </section>
 </template>
