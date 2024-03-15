@@ -1,12 +1,7 @@
 <template>
-  <h1>indec</h1>
-<ProductCarousel />
+  <ProductCarousel />
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

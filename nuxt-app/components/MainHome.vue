@@ -19,7 +19,7 @@
         </p>
         <br />
         <NuxtLink to="/products">
-          <button class="button">View More</button>
+          <Button>View More</Button>
         </NuxtLink>
       </div>
     </div>
@@ -43,7 +43,7 @@
         </p>
         <br />
         <NuxtLink to="/products">
-          <button class="button">View More</button>
+          <Button>View More</Button>
         </NuxtLink>
       </div>
     </div>
@@ -51,11 +51,9 @@
   <div class="full-width-image">
     <div class="overlay-text">
       <h1>A Crew that finds Tech for you so you don't have too!</h1>
-      
+
       <NuxtLink to="/contact">
-        <Button>
-        Contact Us
-      </Button>
+        <Button> Contact Us </Button>
       </NuxtLink>
     </div>
     <img
@@ -139,7 +137,6 @@ h1 {
 .overlay-text p {
   font-size: 18px;
 }
-
 
 @media (max-width: 900px) {
   .container {
