@@ -1,13 +1,8 @@
 <template>
-  <div>
-Hello World
-  </div>
+  <h1>About</h1>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<styles>
+</styles>
