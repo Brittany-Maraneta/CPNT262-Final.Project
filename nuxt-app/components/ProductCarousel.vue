@@ -48,7 +48,6 @@ const bannerImage = computed(() => {
   <section>
   <h2>{{ text }}</h2>
   <Button>{{ title }}</Button>
-  <!-- <GalleryButtons :data="data" @changePage="pageHandler"/> -->
   </section>
   </header>
 </template>

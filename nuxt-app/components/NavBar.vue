@@ -5,7 +5,9 @@ const props = defineProps({
     type: Array,
     required: true,
   },
+
 });
+
 let isVisible = ref(false);
 </script>
 
