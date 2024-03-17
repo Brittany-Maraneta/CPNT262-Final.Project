@@ -2,6 +2,7 @@
   <section class="header">
     <div class="header-content">
       <h1>{{ heroMessage }}</h1>
+
       <NuxtLink to="/products">
         <button class="button">Explore More</button>
       </NuxtLink>
@@ -21,7 +22,7 @@ const isVisible = ref(true);
   background-image: url("https://i.gifer.com/83WF.gif");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
