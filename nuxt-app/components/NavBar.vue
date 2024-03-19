@@ -1,12 +1,7 @@
 <script setup>
 import { ref } from "vue";
-const props = defineProps({
-  links: {
-    type: Array,
-    required: true,
-  },
-
-});
+const response = await useFetch('/api/links')
+const linkData = toRaw(response.data.value)
 
 let isVisible = ref(false);
 </script>
@@ -15,7 +10,7 @@ let isVisible = ref(false);
   <nav>
     <img src="../public/logo.svg" alt="logo" width="75" height="75">
     <ul>
-      <li v-for="({ title, href }, i) in props.links" :key="i">
+      <li v-for="({ title, href }, i) in linkData" :key="i">
         <NuxtLink :to="href">{{ title }}</NuxtLink>
       </li>
     </ul>

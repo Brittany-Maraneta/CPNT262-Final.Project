@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Buy A Computer",
+    "src": "../public/com.jpg"
+  },
+  {
+    "title": "Get A Brand New Nintendo Switch",
+    "src": "../public/switch.jpg"
+  },
+  {
+    "title": "Get Your Own Camera",
+    "src": "../public/camera.webp"
+  },
+  {
+    "title": "Buy The Best New Mouse",
+    "src": "../public/mouse.jpg"
+  }
+]

@@ -5,18 +5,22 @@ let interval;
 const bannerImageArray = [
 {
   title: 'Buy A Computer',
+  src: 'com.jpg'
 },
 
 {
   title: 'Get A Brand New Nintendo Switch',
+  src: 'switch.jpg'
 },
 
 {
   title: 'Get Your Own Camera',
+  src: 'camera.webp'
 },
 
 {
   title: 'Buy The Best New Mouse',
+  src: 'mouse.jpg'
 }
 ];
 

@@ -1,10 +1,9 @@
 <script setup>
-const response = await useFetch('/api/links')
-const linksData = toRaw(response.data.value)
+
 </script>
 
 <template>
-  <NavBar :links="linksData"/>
+  <NavBar/>
   <NuxtPage />
 </template>
 

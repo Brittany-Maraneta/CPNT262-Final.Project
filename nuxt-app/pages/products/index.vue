@@ -1,5 +1,6 @@
 <template>
-<ProductCarousel />
+<!-- <ProductCarousel /> -->
+<slider />
 <GallerComponent />
 </template>
 
