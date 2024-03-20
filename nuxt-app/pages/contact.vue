@@ -111,6 +111,7 @@ h1 {
   margin-top: 30px;
   font-size: 50px;
   margin-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h2 {

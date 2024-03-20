@@ -26,6 +26,7 @@ const isVisible = ref(true);
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .header-content {
