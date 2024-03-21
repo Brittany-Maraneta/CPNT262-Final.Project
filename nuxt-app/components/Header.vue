@@ -45,6 +45,7 @@ const isVisible = ref(true);
   display: inline-block;
   font-size: 16px;
   border-radius: 16px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .button:hover {

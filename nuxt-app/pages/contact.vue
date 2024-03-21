@@ -117,10 +117,11 @@ h1 {
 h2 {
   text-align: center;
   margin-top: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 160px;
+  margin-right: 160px;
   font-size: 18px;
   margin-bottom: 30px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .header {
@@ -155,6 +156,9 @@ img {
   padding: 10px;
   border-radius: 8px;
   font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  
 }
 
 .image-with-text {

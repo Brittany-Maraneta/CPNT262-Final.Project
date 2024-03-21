@@ -1,4 +1,5 @@
 <template>
+  <h1 class="header-main">Popular Demands</h1>
   <div class="container">
     <div class="item">
       <div class="image-container">
@@ -10,8 +11,8 @@
       <div class="text-container">
         <h2>Laptop</h2>
         <br />
-        <p>High-Performance Laptop for Work and Play</p>
-        <p>
+        <p class="p1">High-Performance Laptop for Work and Play</p>
+        <p p class="p2">
           <br />
           Experience the perfect blend of style and performance with our sleek
           laptop. Packed with a high-performance Intel Core processor and
@@ -33,9 +34,9 @@
       <div class="text-container">
         <h2>Camera</h2>
         <br />
-        <p>Capture Every Moment in Stunning Detail</p>
+        <p class="p1">Capture Every Moment in Stunning Detail</p>
         <br />
-        <p>
+        <p class="p2">
           Introducing our latest camera, designed to capture every moment with
           precision and clarity. Whether you're a professional photographer or
           an avid enthusiast, this camera delivers exceptional performance and
@@ -64,10 +65,34 @@
 </template>
 
 <style scoped>
+.header-main {
+  font-size: 20px;
+  margin-top: 40px;
+  background-color: #1c3422;
+  color: white;
+  padding: 20px 80px;
+  display: inline-block;
+  animation: moveLeftAndRight 6s linear infinite alternate;
+}
+
 h1 {
   font-size: 30px;
   justify-content: center;
   margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.p1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .container {
@@ -136,6 +161,18 @@ h1 {
 
 .overlay-text p {
   font-size: 18px;
+}
+
+@keyframes moveLeftAndRight {
+  0% {
+    transform: translateX(5);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(-15px);
+  }
 }
 
 @media (max-width: 900px) {
