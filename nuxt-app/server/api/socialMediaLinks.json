@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "ic:baseline-facebook",
+    "title": "Facebook"
+  },
+  {
+    "icon": "fa6-brands:x-twitter",
+    "title": "Twitter"
+  },
+  {
+    "icon": "mdi:instagram",
+    "title": "Instagram"
+  },
+  {
+    "icon": "mdi:youtube",
+    "title": "Youtube"
+  },
+  {
+    "icon": "mdi:snapchat",
+    "title": "Snapchat"
+  },
+  {
+    "icon": "ic:baseline-tiktok",
+    "title": "Tiktok"
+  }
+]

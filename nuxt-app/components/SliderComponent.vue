@@ -41,7 +41,7 @@ const bannerData = toRaw(response.data.value);
       </SwiperSlide>
 
       <!-- useSwiper() within a swiper instance -->
-      <!-- <SwiperControls /> -->
+      <SwiperControls />
     </Swiper>
 </template>
 
@@ -55,7 +55,6 @@ const bannerData = toRaw(response.data.value);
   font-size: 4rem;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
-  margin-top: 6.5rem;
   width: 100%;
   height: 100%;
 }

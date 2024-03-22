@@ -1,14 +1,14 @@
 <script setup>
 import { ref } from "vue";
-const response = await useFetch('/api/links')
-const linkData = toRaw(response.data.value)
+const response = await useFetch("/api/links");
+const linkData = toRaw(response.data.value);
 
 let isVisible = ref(false);
 </script>
 
 <template>
   <nav>
-    <img src="../public/logo.svg" alt="logo" width="75" height="75">
+    <a href="/"><img src="../public/logo.svg" alt="logo" width="75" height="50" /></a>
     <ul>
       <li v-for="({ title, href }, i) in linkData" :key="i">
         <NuxtLink :to="href">{{ title }}</NuxtLink>
@@ -22,7 +22,6 @@ let isVisible = ref(false);
 </template>
 
 <style lang="scss" scoped>
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -32,7 +31,8 @@ nav {
   position: absolute;
   top: 0;
   padding: 1rem;
-  z-index: 1;
+  z-index: 100;
+  opacity: 80%;
 }
 
 ul {
@@ -46,6 +46,12 @@ li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover a {
+  color: #1c3422;
 }
 
 h1 {

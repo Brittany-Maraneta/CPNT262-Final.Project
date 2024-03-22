@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['nuxt-swiper'],
+  modules: ['nuxt-swiper', 'nuxt-icon'],
   devtools: { enabled: true }
 })

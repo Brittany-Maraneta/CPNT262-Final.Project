@@ -26,6 +26,7 @@ const isVisible = ref(true);
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .header-content {
@@ -44,6 +45,7 @@ const isVisible = ref(true);
   display: inline-block;
   font-size: 16px;
   border-radius: 16px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .button:hover {
