@@ -38,17 +38,38 @@
       alt="Image 8 - Game Console"
     />
   </div>
+  <div class="logo-and-text">
+    <div class="logo-container">
+      <br />
+      <img src="../public/logo.svg" alt="logo" class="logo" />
+    </div>
+    <div class="about-us-text">
+      <h1>About us</h1>
 
+      <h3>
+        At Tech Crew, we're dedicated to delivering the latest in innovative
+        technology solutions. With a deep understanding of the tech landscape,
+        we aim to be your trusted partner in navigating gadgets, devices, and
+        digital solutions. Our mission is simple: to empower individuals and
+        businesses with cutting-edge technology that enhances productivity and
+        connectivity. With a curated selection of products, we offer tech
+        solutions to suit every need and budget, from smartphones to enterprise
+        solutions. Our team of experts is here to assist you every step of the
+        way, whether you need product advice or personalized recommendations. We
+        also offer personalized consulting services to help businesses and
+        individuals implement custom tech solutions. Customer satisfaction is
+        our top priority. We're committed to delivering exceptional service and
+        value, ensuring a seamless shopping experience.
+      </h3>
+      <br />
+      <h3>
+        Thank you for choosing Tech Crew as your trusted source for all things
+        tech. We look forward to serving you!
+      </h3>
+    </div>
+  </div>
   <div>
-    <h1>Contact Us</h1>
-    <h2>
-      Looking to dive deeper into the world of technology? Our team of experts
-      is here to assist you every step of the way. Whether you have questions
-      about the latest gadgets, need help troubleshooting tech issues, or want
-      to explore innovative solutions for your business, we've got you covered.
-      Contact us today to unleash the power of technology and take your digital
-      journey to new heights.
-    </h2>
+    <br />
     <div class="image-container">
       <div class="image-with-text">
         <img
@@ -77,12 +98,20 @@
       </div>
     </div>
   </div>
-  
-  <div class="contact-form-container">
-    <div class="logo">
-    <img src ="../public/logo.svg" alt="logo"></img>
+
+  <h1>Contact Us</h1>
+  <div class="contact-text">
+    <h2>
+      Looking to dive deeper into the world of technology? Our team of experts
+      is here to assist you every step of the way. Whether you have questions
+      about the latest gadgets, need help troubleshooting tech issues, or want
+      to explore innovative solutions for your business, we've got you covered.
+      Contact us today to unleash the power of technology and take your digital
+      journey to new heights.
+    </h2>
   </div>
-    <h2>Contact Us</h2>
+
+  <div class="contact-form-container">
     <form id="contact-form">
       <div class="form-group">
         <label for="name">Name:</label>
@@ -106,22 +135,53 @@
 </template>
 
 <style scoped>
+.logo-container {
+  margin-top: 50px;
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.logo-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo-container img {
+  max-width: 100%;
+  width: 450px;
+  height: auto;
+}
+
+.about-us-text {
+  flex: 1 1 auto;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 h1 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 50px;
   margin-bottom: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-h2 {
-  text-align: center;
-  margin-top: 30px;
-  margin-left: 160px;
-  margin-right: 160px;
-  font-size: 18px;
-  margin-bottom: 30px;
+.contact-text {
+  flex: 1 1 auto;
+  margin-left: 60px;
+  margin-right: 60px;
   font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .header {
@@ -158,7 +218,6 @@ img {
   font-size: 16px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  
 }
 
 .image-with-text {
@@ -171,12 +230,28 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px; 
-  height: auto; 
+  width: 200px;
+  height: auto;
   background-color: lightgrey;
   border-radius: 10px;
 }
 
+@media (max-width: 768px) {
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us-text {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  .contact-text {
+    margin-top: 20px;
+    font-size: 11px;
+  }
+}
 
 @media (max-width: 768px) {
   .image-container {
@@ -204,6 +279,7 @@ img {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  margin-bottom: 60px;
 }
 
 .contact-form-container h2 {

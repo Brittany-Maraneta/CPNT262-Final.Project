@@ -8,7 +8,9 @@ let isVisible = ref(false);
 
 <template>
   <nav>
-    <a href="/"><img src="../public/logo.svg" alt="logo" width="75" height="50" /></a>
+    <a href="/"
+      ><img src="../public/logo.svg" alt="logo" width="75" height="50"
+    /></a>
     <ul>
       <li v-for="({ title, href }, i) in linkData" :key="i">
         <NuxtLink :to="href">{{ title }}</NuxtLink>
@@ -33,6 +35,11 @@ nav {
   padding: 1rem;
   z-index: 100;
   opacity: 80%;
+}
+
+nav a:hover img {
+  transform: scale(1.2);
+  transition: transform 0.4s;
 }
 
 ul {
