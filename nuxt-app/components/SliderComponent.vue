@@ -12,7 +12,7 @@ const bannerData = toRaw(response.data.value);
       :effect="'fade'"
       :autoplay="{
         delay: 2000,
-        disableOnInteraction: true
+        disableOnInteraction: false
       }"
       :creative-effect="{
         prev: {

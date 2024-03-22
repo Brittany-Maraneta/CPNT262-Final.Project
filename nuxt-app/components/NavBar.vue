@@ -32,6 +32,7 @@ nav {
   position: absolute;
   top: 0;
   padding: 1rem;
+  z-index: 1;
 }
 
 ul {
