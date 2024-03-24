@@ -1,62 +1,74 @@
 [
   {
+    "id": "1",
     "title": "Nintendo Switch",
     "description": "Experience gaming like never before with the versatile Nintendo Switch. Seamlessly switch between handheld and console modes for gaming on the go or at home. Whether you're a Mario Kart enthusiast or a Legend of Zelda adventurer, the Switch offers endless entertainment.",
-    "image": "../assets/nintendo.jpg"
+    "image": "https://www.pngall.com/wp-content/uploads/2/Nintendo-Switch-PNG.png"
   },
   {
+    "id": "2",
     "title": "Camera",
     "description": "Capture life's precious moments in stunning detail with a high-quality camera. From family gatherings to scenic landscapes, unleash your creativity and preserve memories with every click. Whether you're a beginner or a professional photographer, find the perfect shot with ease.",
-    "image": "https://example.com/camera_image.jpg"
+    "image": "https://pngimg.com/d/video_camera_PNG7864.png"
   },
   {
-    "title": "Computer",
+    "id": "3",
+    "title": "Laptop",
     "description": "Power through work tasks, gaming sessions, and creative projects with a reliable computer. From sleek laptops to powerful desktops, find the perfect balance of performance and portability to suit your needs. Stay connected, organized, and productive with cutting-edge technology at your fingertips.",
-    "image": "https://example.com/computer_image.jpg"
+    "image": "https://clipart-library.com/image_gallery/n1357252.png"
   },
   {
+    "id": "4",
     "title": "Mouse",
     "description": "Navigate with precision and efficiency using a high-performance mouse. Whether you're editing documents, browsing the web, or dominating in gaming competitions, find the perfect mouse tailored to your preferences. With ergonomic design and customizable features, enhance your productivity and gaming experience.",
-    "image": "https://example.com/mouse_image.jpg"
+    "image": "https://www.pngall.com/wp-content/uploads/2016/04/PC-Mouse-PNG.png"
   },
   {
+    "id": "5",
     "title": "Smartphone",
     "description": "Stay connected and productive on the go with a feature-packed smartphone. From seamless multitasking to stunning photography, unlock endless possibilities with the latest smartphone technology. Whether you're managing emails, capturing memories, or staying entertained, find the perfect companion for your busy lifestyle.",
-    "image": "https://example.com/smartphone_image.jpg"
+    "image": "https://pngimg.com/d/smartphone_PNG8534.png"
   },
   {
+    "id": "6",
     "title": "Headphones",
     "description": "Immerse yourself in crisp audio and immersive soundscapes with high-quality headphones. Whether you're jamming to your favorite tunes, gaming with friends, or tuning into podcasts, enjoy superior sound quality and comfort for extended listening sessions.",
-    "image": "https://example.com/headphones_image.jpg"
+    "image": "https://static.vecteezy.com/system/resources/previews/024/558/914/original/black-wireless-headphones-isolated-on-transparent-background-ai-generated-png.png"
   },
   {
+    "id": "7",
     "title": "External Hard Drive",
     "description": "Safeguard your precious files and expand your storage space with an external hard drive. Whether you're backing up important documents, storing multimedia files, or transferring data between devices, ensure peace of mind with reliable storage solutions.",
-    "image": "https://example.com/external_hard_drive_image.jpg"
+    "image": "https://icons.iconarchive.com/icons/thvg/disk/256/Black-External-icon.png"
   },
   {
+    "id": "8",
     "title": "Wireless Router",
     "description": "Stay connected to high-speed internet and enjoy seamless connectivity with a reliable wireless router. Whether you're streaming HD videos, gaming online, or video conferencing with colleagues, optimize your network performance for smooth and uninterrupted connectivity.",
-    "image": "https://example.com/wireless_router_image.jpg"
+    "image": "https://fcit.usf.edu/matrix/wp-content/uploads/2016/12/Router.png"
   },
   {
+    "id": "9",
     "title": "Smartwatch",
     "description": "Stay organized, motivated, and connected with a feature-packed smartwatch. From tracking fitness goals to receiving notifications on the go, enhance your daily routine with advanced health monitoring and convenient smart features.",
-    "image": "https://example.com/smartwatch_image.jpg"
+    "image": "https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-the-smartwatch-banner-png-image_11919210.png"
   },
   {
+    "id": "10",
     "title": "Printer",
     "description": "Transform digital documents into tangible copies with a reliable printer. Whether you're printing photos, documents, or creative projects, enjoy crisp and vibrant prints from the comfort of your home or office.",
-    "image": "https://example.com/printer_image.jpg"
+    "image": "https://pngimg.com/d/printer_PNG101580.png"
   },
   {
+    "id": "11",
     "title": "Bluetooth Speaker",
     "description": "Experience rich, immersive sound wherever you go with a portable Bluetooth speaker. Whether you're hosting outdoor gatherings, enjoying picnics, or simply relaxing at home, elevate your audio experience with wireless convenience and powerful sound performance.",
-    "image": "https://example.com/bluetooth_speaker_image.jpg"
+    "image": "https://pngimg.com/d/wireless_speaker_PNG35.png"
   },
   {
+    "id": "12",
     "title": "Gaming Keyboard",
     "description": "Dominate the virtual battlefield and enhance your gaming experience with a high-performance gaming keyboard. Featuring customizable RGB lighting, tactile switches, and ergonomic design, unleash your full gaming potential and enjoy precision control with every keystroke.",
-    "image": "https://example.com/gaming_keyboard_image.jpg"
+    "image": "https://freepngimg.com/save/162894-gaming-keyboard-free-png-hq/1368x805"
   }
 ]

@@ -1,18 +1,22 @@
 [
   {
-    "title": "Buy A Computer",
-    "src": "../public/com.jpg"
+    "id": "11",
+    "src": "https://www.audioadvice.com/wordpress2/wp-content/uploads/2020/08/JBL-boombox-2-at-a-cookout.jpg",
+    "title": "Bluetooth Speaker"
   },
   {
-    "title": "Get A Brand New Nintendo Switch",
-    "src": "../public/switch.jpg"
+    "id": "1",
+    "src": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/11/07/nintendo-switch-has-117-million-annual-playing-users_feature.jpg",
+    "title": "Nintendo Switch"
   },
   {
-    "title": "Get Your Own Camera",
-    "src": "../public/camera.webp"
+    "id": "2",
+    "src": "https://www.popsci.com/uploads/2019/09/06/HHKVEOEMHCF5GHG2JEE3DJEZLU.jpg?auto=webp",
+    "title": "Camera"
   },
   {
-    "title": "Buy The Best New Mouse",
-    "src": "../public/mouse.jpg"
+    "id": "6",
+    "src": "https://images.unsplash.com/photo-1617803021651-8df9d37672a6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29uJTIwd2l0aCUyMGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+    "title": "Headphones"
   }
 ]

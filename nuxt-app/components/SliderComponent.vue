@@ -24,24 +24,12 @@ const bannerData = toRaw(response.data.value);
         }
       }"
     >
-      <SwiperSlide>
-        <img src="../public/com.jpg" :alt="bannerData[0].title">
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <img src="../public/switch.jpg" :alt="bannerData[1].title">
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <img src="../public/camera.webp" :alt="bannerData[2].title">
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <img src="../public/mouse.jpg" :alt="bannerData[3].title">
+      <SwiperSlide v-for="({id,src,title},i) in bannerData" :key="i">
+        <img :src="src" :alt="title">
       </SwiperSlide>
 
       <!-- useSwiper() within a swiper instance -->
-      <SwiperControls />
+      <!-- <SwiperControls /> -->
     </Swiper>
 </template>
 
@@ -57,6 +45,7 @@ const bannerData = toRaw(response.data.value);
   font-family: 'Roboto', sans-serif;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 .swiper-wrapper {
   min-width: 100vh;
