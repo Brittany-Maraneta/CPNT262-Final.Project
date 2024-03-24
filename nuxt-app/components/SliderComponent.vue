@@ -28,9 +28,16 @@ const bannerData = toRaw(response.data.value);
         <img :src="src" :alt="title">
       </SwiperSlide>
 
-      <!-- useSwiper() within a swiper instance -->
-      <!-- <SwiperControls /> -->
+      <div class="button-wrapper">
+        <a href="#products">
+        <Button>
+          View All Our Products
+        </Button>
+        </a>
+      </div>
+
     </Swiper>
+    <GallerComponent id="products" />
 </template>
 
 <style lang="scss" scoped>
@@ -55,6 +62,14 @@ const bannerData = toRaw(response.data.value);
 img {
   width: 100%;
   height: 100vh;
+}
+
+.button-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
 }
 
 </style>

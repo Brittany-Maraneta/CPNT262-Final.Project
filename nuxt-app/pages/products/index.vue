@@ -1,6 +1,5 @@
 <template>
 <SliderComponent />
-<GallerComponent />
 </template>
 
 <script setup></script>
