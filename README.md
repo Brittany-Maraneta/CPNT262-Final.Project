@@ -5,5 +5,7 @@
 ## Authour Names: 
 
 **- Brandon Iticka**
+
 **- Brittany Maraneta**
+
 **- Hyeju Hong**
