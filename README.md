@@ -1,19 +1,18 @@
-## CPNT262
-
-## Multi-page Website with Gallery
+# CPNT262 
+# Final - Multi-page Website with Gallery
 
 ## Authour Names: 
-
-**- Brandon Iticka**
-
-**- Brittany Maraneta**
-
+**- Brandon Iticka** 
+**- Brittany Maraneta** https://github.com/Brittany-Maraneta
 **- Hyeju Hong**
 
 
-## Authour:
-- Bradon: Product pages and Navbar.
-- Brittany: Contact and home pages and buttons.
-- Hyeju: Footer/About pages
-     - About page is removed when we meeting with Ash.
- 
+## Project Authors:
+- Brandon: Product pages and Navbar.
+- Brittany: Contact Home page and buttons.
+- Hyeju: Footer
+     - About page is removed when we met with Ashlyn.
+
+## Third Party Libaries:
+- Slider
+- Icons 
