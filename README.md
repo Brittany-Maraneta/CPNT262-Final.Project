@@ -2,9 +2,9 @@
 # Final - Multi-page Website with Gallery
 
 ## Authour Names: 
-**- Brandon Iticka** 
-**- Brittany Maraneta** https://github.com/Brittany-Maraneta
-**- Hyeju Hong**
+- Brandon Iticka**
+- Brittany Maraneta** https://github.com/Brittany-Maraneta
+- Hyeju Hong**
 
 
 ## Project Authors:
