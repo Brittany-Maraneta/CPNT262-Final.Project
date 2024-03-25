@@ -6,7 +6,7 @@
 
 - Brandon Iticka
 - Brittany Maraneta https://github.com/Brittany-Maraneta
-- Hyeju Hong
+- Hyeju Hong https://github.com/Hyeju1996?tab=repositories
 
 ## Project Authors:
 
@@ -18,4 +18,4 @@
 ## Third Party Libaries:
 
 - Slider
-- Icon
+- Icons
