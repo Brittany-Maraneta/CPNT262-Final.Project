@@ -37,7 +37,7 @@ const bannerData = toRaw(response.data.value);
       </div>
 
     </Swiper>
-    <GallerComponent id="products" />
+    <GalleryComponent id="products" />
 </template>
 
 <style lang="scss" scoped>

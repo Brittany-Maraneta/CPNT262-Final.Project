@@ -31,7 +31,7 @@ section {
   justify-content: center;
   gap: 1.3rem;
   height: 120vh;
-  background-color: #9fcbaa;
+  background-color: whitesmoke;
   font-family: sans-serif;
 }
 

@@ -1,10 +1,11 @@
 <script setup>
-
+const response = await useFetch('/api/products')
+const productData = toRaw(response.data.value)
 </script>
 
 <template>
 <section>
-  <Card />
+  <Card :products="productData" />
 </section>
 </template>
 

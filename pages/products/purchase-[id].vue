@@ -22,7 +22,7 @@ const product = productData.find(item => item.id === id);
     justify-content: center;
     z-index: 1000;
     color: black;
-    background-color: #9fcbaa;
+    background-color: whitesmoke;
     font-size: sans-serif;
   }
 

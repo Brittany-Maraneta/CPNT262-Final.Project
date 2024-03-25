@@ -1,10 +1,14 @@
 <script setup>
-const response = await useFetch('/api/products')
-const productData = toRaw(response.data.value)
+const props = defineProps({
+  products: {
+    type: Array,
+    required: true
+  }
+})
 </script>
 
 <template>
-<NuxtLink v-for="({id,title,description,image},i) in productData" :key="i" :to="`/products/product-${id}`" style="text-decoration: none;">
+<NuxtLink v-for="({id,title,description,image},i) in props.products" :key="i" :to="`/products/product-${id}`" style="text-decoration: none;">
 <article>
 <h4>{{ title }}</h4>
 <figure>
