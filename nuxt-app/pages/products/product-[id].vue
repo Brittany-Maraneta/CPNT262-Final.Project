@@ -19,7 +19,7 @@ const {title,description,image,price} = productData.find(item => item.id === id)
 </NuxtLink>
 </article>
 </section>
-<NuxtLink to="/products">
+<NuxtLink to="/products#products">
   <h5>Go Back</h5>
 </NuxtLink>
 </template>
