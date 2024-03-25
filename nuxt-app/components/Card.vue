@@ -4,12 +4,14 @@ const productData = toRaw(response.data.value)
 </script>
 
 <template>
-<article v-for="({id,title,description,image},i) in productData" :key="i">
+<NuxtLink v-for="({id,title,description,image},i) in productData" :key="i" :to="`/products/product-${id}`" style="text-decoration: none;">
+<article>
 <h4>{{ title }}</h4>
 <figure>
   <img :src="image" :alt="title" height="200" width="200">
 </figure>
 </article>
+</NuxtLink>
 </template>
 
 <style lang="scss" scoped>
@@ -33,6 +35,11 @@ article {
 
 article:hover {
   scale: 1.05;
+}
+
+a {
+  color: black;
+  font-family: sans-serif;
 }
 
 img {
