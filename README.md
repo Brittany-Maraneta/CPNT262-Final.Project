@@ -19,3 +19,5 @@
 
 - Slider
 - Icons
+
+https://cpnt-262-final-project-sigma.vercel.app/
